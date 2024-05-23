@@ -1,7 +1,5 @@
-# Vue 3 + Vite
+Um app utilizando a API do Spotify, onde mostra ao usuário suas playlists. O site foi feito com Vite + Vue como framework Para estilização utilizei o CSS framework Tailwind.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+O app se resume a uma tela de login, vinculada com o spotify que faz a intermediação do login, e consulta se o usuário é um cliente Spotify, depois da tela de inicio ja temos nossa HOME, que por meio de um token de autorização e ID de usuário que o Spotify nos retorna, devolvemos todas playlists do Usuário com algumas informações como: Nome, criador e coloboração.
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+De continuidade para o projeto quero colocar imagens das playlist e tracks, adicionar mais informações sobre as playlists e colocar um reprodutor das tracks.
